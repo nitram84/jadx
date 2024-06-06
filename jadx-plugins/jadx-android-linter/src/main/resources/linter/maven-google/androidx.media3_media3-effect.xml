@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+    <item name="androidx.media3.effect.DebugTraceUtil void logEvent(java.lang.String, long) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{androidx.media3.effect.DebugTraceUtil.EVENT_VIDEO_INPUT_FORMAT, androidx.media3.effect.DebugTraceUtil.EVENT_DECODER_DECODED_FRAME, androidx.media3.effect.DebugTraceUtil.EVENT_VFP_REGISTER_NEW_INPUT_STREAM, androidx.media3.effect.DebugTraceUtil.EVENT_VFP_SURFACE_TEXTURE_INPUT, androidx.media3.effect.DebugTraceUtil.EVENT_VFP_QUEUE_FRAME, androidx.media3.effect.DebugTraceUtil.EVENT_VFP_QUEUE_BITMAP, androidx.media3.effect.DebugTraceUtil.EVENT_VFP_QUEUE_TEXTURE, androidx.media3.effect.DebugTraceUtil.EVENT_VFP_RENDERED_TO_OUTPUT_SURFACE, androidx.media3.effect.DebugTraceUtil.EVENT_VFP_OUTPUT_TEXTURE_RENDERED, androidx.media3.effect.DebugTraceUtil.EVENT_VFP_FINISH_PROCESSING_INPUT_STREAM, androidx.media3.effect.DebugTraceUtil.EVENT_COMPOSITOR_OUTPUT_TEXTURE_RENDERED, androidx.media3.effect.DebugTraceUtil.EVENT_ENCODER_ENCODED_FRAME, androidx.media3.effect.DebugTraceUtil.EVENT_MUXER_CAN_WRITE_SAMPLE_VIDEO, androidx.media3.effect.DebugTraceUtil.EVENT_MUXER_WRITE_SAMPLE_VIDEO, androidx.media3.effect.DebugTraceUtil.EVENT_MUXER_CAN_WRITE_SAMPLE_AUDIO, androidx.media3.effect.DebugTraceUtil.EVENT_MUXER_WRITE_SAMPLE_AUDIO, androidx.media3.effect.DebugTraceUtil.EVENT_DECODER_RECEIVE_EOS, androidx.media3.effect.DebugTraceUtil.EVENT_DECODER_SIGNAL_EOS, androidx.media3.effect.DebugTraceUtil.EVENT_VFP_RECEIVE_END_OF_INPUT, androidx.media3.effect.DebugTraceUtil.EVENT_EXTERNAL_TEXTURE_MANAGER_SIGNAL_EOS, androidx.media3.effect.DebugTraceUtil.EVENT_BITMAP_TEXTURE_MANAGER_SIGNAL_EOS, androidx.media3.effect.DebugTraceUtil.EVENT_TEX_ID_TEXTURE_MANAGER_SIGNAL_EOS, androidx.media3.effect.DebugTraceUtil.EVENT_VFP_SIGNAL_ENDED, androidx.media3.effect.DebugTraceUtil.EVENT_ENCODER_RECEIVE_EOS, androidx.media3.effect.DebugTraceUtil.EVENT_MUXER_TRACK_ENDED_AUDIO, androidx.media3.effect.DebugTraceUtil.EVENT_MUXER_TRACK_ENDED_VIDEO}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.effect.DebugTraceUtil void logEvent(java.lang.String, long, java.lang.String, java.lang.Object...) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{androidx.media3.effect.DebugTraceUtil.EVENT_VIDEO_INPUT_FORMAT, androidx.media3.effect.DebugTraceUtil.EVENT_DECODER_DECODED_FRAME, androidx.media3.effect.DebugTraceUtil.EVENT_VFP_REGISTER_NEW_INPUT_STREAM, androidx.media3.effect.DebugTraceUtil.EVENT_VFP_SURFACE_TEXTURE_INPUT, androidx.media3.effect.DebugTraceUtil.EVENT_VFP_QUEUE_FRAME, androidx.media3.effect.DebugTraceUtil.EVENT_VFP_QUEUE_BITMAP, androidx.media3.effect.DebugTraceUtil.EVENT_VFP_QUEUE_TEXTURE, androidx.media3.effect.DebugTraceUtil.EVENT_VFP_RENDERED_TO_OUTPUT_SURFACE, androidx.media3.effect.DebugTraceUtil.EVENT_VFP_OUTPUT_TEXTURE_RENDERED, androidx.media3.effect.DebugTraceUtil.EVENT_VFP_FINISH_PROCESSING_INPUT_STREAM, androidx.media3.effect.DebugTraceUtil.EVENT_COMPOSITOR_OUTPUT_TEXTURE_RENDERED, androidx.media3.effect.DebugTraceUtil.EVENT_ENCODER_ENCODED_FRAME, androidx.media3.effect.DebugTraceUtil.EVENT_MUXER_CAN_WRITE_SAMPLE_VIDEO, androidx.media3.effect.DebugTraceUtil.EVENT_MUXER_WRITE_SAMPLE_VIDEO, androidx.media3.effect.DebugTraceUtil.EVENT_MUXER_CAN_WRITE_SAMPLE_AUDIO, androidx.media3.effect.DebugTraceUtil.EVENT_MUXER_WRITE_SAMPLE_AUDIO, androidx.media3.effect.DebugTraceUtil.EVENT_DECODER_RECEIVE_EOS, androidx.media3.effect.DebugTraceUtil.EVENT_DECODER_SIGNAL_EOS, androidx.media3.effect.DebugTraceUtil.EVENT_VFP_RECEIVE_END_OF_INPUT, androidx.media3.effect.DebugTraceUtil.EVENT_EXTERNAL_TEXTURE_MANAGER_SIGNAL_EOS, androidx.media3.effect.DebugTraceUtil.EVENT_BITMAP_TEXTURE_MANAGER_SIGNAL_EOS, androidx.media3.effect.DebugTraceUtil.EVENT_TEX_ID_TEXTURE_MANAGER_SIGNAL_EOS, androidx.media3.effect.DebugTraceUtil.EVENT_VFP_SIGNAL_ENDED, androidx.media3.effect.DebugTraceUtil.EVENT_ENCODER_RECEIVE_EOS, androidx.media3.effect.DebugTraceUtil.EVENT_MUXER_TRACK_ENDED_AUDIO, androidx.media3.effect.DebugTraceUtil.EVENT_MUXER_TRACK_ENDED_VIDEO}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.effect.Presentation Presentation(int, int, float, int) 3">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.effect.Presentation.LAYOUT_SCALE_TO_FIT, androidx.media3.effect.Presentation.LAYOUT_SCALE_TO_FIT_WITH_CROP, androidx.media3.effect.Presentation.LAYOUT_STRETCH_TO_FIT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.effect.Presentation androidx.media3.effect.Presentation createForAspectRatio(float, int) 1">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.effect.Presentation.LAYOUT_SCALE_TO_FIT, androidx.media3.effect.Presentation.LAYOUT_SCALE_TO_FIT_WITH_CROP, androidx.media3.effect.Presentation.LAYOUT_STRETCH_TO_FIT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.effect.Presentation androidx.media3.effect.Presentation createForWidthAndHeight(int, int, int) 2">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.effect.Presentation.LAYOUT_SCALE_TO_FIT, androidx.media3.effect.Presentation.LAYOUT_SCALE_TO_FIT_WITH_CROP, androidx.media3.effect.Presentation.LAYOUT_STRETCH_TO_FIT}"></val>
+        </annotation>
+    </item>
+    <item name="androidx.media3.effect.Presentation void checkLayout(int) 0">
+        <annotation name="androidx.annotation.IntDef">
+            <val name="value" val="{androidx.media3.effect.Presentation.LAYOUT_SCALE_TO_FIT, androidx.media3.effect.Presentation.LAYOUT_SCALE_TO_FIT_WITH_CROP, androidx.media3.effect.Presentation.LAYOUT_STRETCH_TO_FIT}"></val>
+        </annotation>
+    </item>
+</root>
