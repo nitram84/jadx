@@ -1,0 +1,11 @@
+{
+  "androidSdkRules": "sha512-Sz/Mm0FB6k8uSI5lAUhsqHfDdERJ9PW1i81FGsbavSyJhD5Mk5HXUWPUxgpA/0OBGLKvqLW0+YpLpZuXcqOIPg==",
+  "androidSdkConstants": "sha512-ybpS06eGWQiqjtY2iHQoyIWj+CwIvZYUKvPOK60XyMyWQHY9mimpQjPMqMVMLqud8c27u44EVvX8P2SuJSrloQ==",
+  "additionalConstants": "sha512-i+G0HQ/mx+zWFTIn1Yc5a3Do9W7+Y5fNyaa6T7H2w/7W5Ff1Dj8Fp17sF0HflOWAlsv8gAhEAua8iGDUDIIzmw==",
+  "repositories": [
+    {
+      "name": "maven-google",
+      "index": "sha512-BOzW9kVG5I8DJV6xg7K3sDZ9gP7YSvwMiNz+xz+TQ9P/6iq1zi/yk1Xsi+yazidM1oJYBngfjErgNHRi0F1psg=="
+    }
+  ]
+}
