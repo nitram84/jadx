@@ -5,7 +5,15 @@
   "repositories": [
     {
       "name": "maven-google",
-      "index": "sha512-BOzW9kVG5I8DJV6xg7K3sDZ9gP7YSvwMiNz+xz+TQ9P/6iq1zi/yk1Xsi+yazidM1oJYBngfjErgNHRi0F1psg=="
+      "index": "sha512-lepSRPjZVOu7+XBt+MIdmktDZ2qhLfoO5kFbdf1CuXR3JJurctzzXoL8AGljHGKbW7OZpx5WN0BCYe6FRhSVkA=="
+    },
+    {
+      "name": "maven-central",
+      "index": "sha512-XX8uJCf+F2o1nYYx5KU9ZDSumCc6DLNlVrS1CExzgVdjXznIMNGidXN+vR4BykWusSWhK0ZVNdxpAy8Vf7myew=="
+    },
+    {
+      "name": "jitpack",
+      "index": "sha512-9P2SPoHEAopOT2i/pyW0xrax0FIcbUy6aPGrauEOCJvEKY1qelgqGNsgdhDKq0ZeC6wmKPCcLJx4IPNO1GtKTA=="
     }
   ]
 }

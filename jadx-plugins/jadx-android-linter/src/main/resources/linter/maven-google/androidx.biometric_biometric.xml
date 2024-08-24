@@ -38,7 +38,7 @@
     </item>
     <item name="androidx.biometric.BiometricFragment void cancelAuthentication(int) 0">
         <annotation name="androidx.annotation.IntDef">
-            <val name="value" val="{androidx.biometric.BiometricFragment.CANCELED_FROM_INTERNAL, androidx.biometric.BiometricFragment.CANCELED_FROM_USER, androidx.biometric.BiometricFragment.CANCELED_FROM_NEGATIVE_BUTTON, androidx.biometric.BiometricFragment.CANCELED_FROM_CLIENT}"></val>
+            <val name="value" val="{androidx.biometric.BiometricFragment.CANCELED_FROM_INTERNAL, androidx.biometric.BiometricFragment.CANCELED_FROM_USER, androidx.biometric.BiometricFragment.CANCELED_FROM_NEGATIVE_BUTTON, androidx.biometric.BiometricFragment.CANCELED_FROM_CLIENT, androidx.biometric.BiometricFragment.CANCELED_FROM_MORE_OPTIONS_BUTTON}"></val>
         </annotation>
     </item>
     <item name="androidx.biometric.BiometricFragment.Api30Impl void setAllowedAuthenticators(android.hardware.biometrics.BiometricPrompt.Builder, int) 1">
@@ -85,7 +85,7 @@
     </item>
     <item name="androidx.biometric.BiometricPrompt.AuthenticationCallback void onAuthenticationError(int, java.lang.CharSequence) 0">
         <annotation name="androidx.annotation.IntDef">
-            <val name="value" val="{androidx.biometric.BiometricPrompt.ERROR_HW_UNAVAILABLE, androidx.biometric.BiometricPrompt.ERROR_UNABLE_TO_PROCESS, androidx.biometric.BiometricPrompt.ERROR_TIMEOUT, androidx.biometric.BiometricPrompt.ERROR_NO_SPACE, androidx.biometric.BiometricPrompt.ERROR_CANCELED, androidx.biometric.BiometricPrompt.ERROR_LOCKOUT, androidx.biometric.BiometricPrompt.ERROR_VENDOR, androidx.biometric.BiometricPrompt.ERROR_LOCKOUT_PERMANENT, androidx.biometric.BiometricPrompt.ERROR_USER_CANCELED, androidx.biometric.BiometricPrompt.ERROR_NO_BIOMETRICS, androidx.biometric.BiometricPrompt.ERROR_HW_NOT_PRESENT, androidx.biometric.BiometricPrompt.ERROR_NEGATIVE_BUTTON, androidx.biometric.BiometricPrompt.ERROR_NO_DEVICE_CREDENTIAL}"></val>
+            <val name="value" val="{androidx.biometric.BiometricPrompt.ERROR_HW_UNAVAILABLE, androidx.biometric.BiometricPrompt.ERROR_UNABLE_TO_PROCESS, androidx.biometric.BiometricPrompt.ERROR_TIMEOUT, androidx.biometric.BiometricPrompt.ERROR_NO_SPACE, androidx.biometric.BiometricPrompt.ERROR_CANCELED, androidx.biometric.BiometricPrompt.ERROR_LOCKOUT, androidx.biometric.BiometricPrompt.ERROR_VENDOR, androidx.biometric.BiometricPrompt.ERROR_LOCKOUT_PERMANENT, androidx.biometric.BiometricPrompt.ERROR_USER_CANCELED, androidx.biometric.BiometricPrompt.ERROR_NO_BIOMETRICS, androidx.biometric.BiometricPrompt.ERROR_HW_NOT_PRESENT, androidx.biometric.BiometricPrompt.ERROR_NEGATIVE_BUTTON, androidx.biometric.BiometricPrompt.ERROR_NO_DEVICE_CREDENTIAL, androidx.biometric.BiometricPrompt.ERROR_MORE_OPTIONS_BUTTON}"></val>
         </annotation>
     </item>
     <item name="androidx.biometric.BiometricPrompt.AuthenticationResult AuthenticationResult(androidx.biometric.BiometricPrompt.CryptoObject, int) 1">
@@ -93,7 +93,7 @@
             <val name="value" val="{androidx.biometric.BiometricPrompt.AUTHENTICATION_RESULT_TYPE_UNKNOWN, androidx.biometric.BiometricPrompt.AUTHENTICATION_RESULT_TYPE_DEVICE_CREDENTIAL, androidx.biometric.BiometricPrompt.AUTHENTICATION_RESULT_TYPE_BIOMETRIC}"></val>
         </annotation>
     </item>
-    <item name="androidx.biometric.BiometricPrompt.PromptInfo PromptInfo(java.lang.CharSequence, java.lang.CharSequence, java.lang.CharSequence, java.lang.CharSequence, boolean, boolean, int) 6">
+    <item name="androidx.biometric.BiometricPrompt.PromptInfo PromptInfo(int, android.graphics.Bitmap, java.lang.String, java.lang.CharSequence, java.lang.CharSequence, java.lang.CharSequence, androidx.biometric.PromptContentView, java.lang.CharSequence, boolean, boolean, int) 10">
         <annotation name="androidx.annotation.IntDef">
             <val name="flag" val="true"></val>
             <val name="value" val="{androidx.biometric.BiometricManager.Authenticators.BIOMETRIC_STRONG, androidx.biometric.BiometricManager.Authenticators.BIOMETRIC_WEAK, androidx.biometric.BiometricManager.Authenticators.DEVICE_CREDENTIAL}"></val>
@@ -147,7 +147,7 @@
     </item>
     <item name="androidx.biometric.auth.AuthPromptCallback void onAuthenticationError(androidx.fragment.app.FragmentActivity, int, java.lang.CharSequence) 1">
         <annotation name="androidx.annotation.IntDef">
-            <val name="value" val="{androidx.biometric.BiometricPrompt.ERROR_HW_UNAVAILABLE, androidx.biometric.BiometricPrompt.ERROR_UNABLE_TO_PROCESS, androidx.biometric.BiometricPrompt.ERROR_TIMEOUT, androidx.biometric.BiometricPrompt.ERROR_NO_SPACE, androidx.biometric.BiometricPrompt.ERROR_CANCELED, androidx.biometric.BiometricPrompt.ERROR_LOCKOUT, androidx.biometric.BiometricPrompt.ERROR_VENDOR, androidx.biometric.BiometricPrompt.ERROR_LOCKOUT_PERMANENT, androidx.biometric.BiometricPrompt.ERROR_USER_CANCELED, androidx.biometric.BiometricPrompt.ERROR_NO_BIOMETRICS, androidx.biometric.BiometricPrompt.ERROR_HW_NOT_PRESENT, androidx.biometric.BiometricPrompt.ERROR_NEGATIVE_BUTTON, androidx.biometric.BiometricPrompt.ERROR_NO_DEVICE_CREDENTIAL}"></val>
+            <val name="value" val="{androidx.biometric.BiometricPrompt.ERROR_HW_UNAVAILABLE, androidx.biometric.BiometricPrompt.ERROR_UNABLE_TO_PROCESS, androidx.biometric.BiometricPrompt.ERROR_TIMEOUT, androidx.biometric.BiometricPrompt.ERROR_NO_SPACE, androidx.biometric.BiometricPrompt.ERROR_CANCELED, androidx.biometric.BiometricPrompt.ERROR_LOCKOUT, androidx.biometric.BiometricPrompt.ERROR_VENDOR, androidx.biometric.BiometricPrompt.ERROR_LOCKOUT_PERMANENT, androidx.biometric.BiometricPrompt.ERROR_USER_CANCELED, androidx.biometric.BiometricPrompt.ERROR_NO_BIOMETRICS, androidx.biometric.BiometricPrompt.ERROR_HW_NOT_PRESENT, androidx.biometric.BiometricPrompt.ERROR_NEGATIVE_BUTTON, androidx.biometric.BiometricPrompt.ERROR_NO_DEVICE_CREDENTIAL, androidx.biometric.BiometricPrompt.ERROR_MORE_OPTIONS_BUTTON}"></val>
         </annotation>
     </item>
 </root>

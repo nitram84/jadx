@@ -32,8 +32,8 @@
     },
     {
       "name": "androidx.biometric_biometric",
-      "rules": "sha512-jEGbuql97ghAXgSnI7uzyMEcJmqUt//dxyLNgyHGysCTrilnvS+6Syv9OcpL0BOqr+X25KNcfy2XyxLVSD11vw==",
-      "constants": "sha512-H0Rdw6yfME2GrVpy8H+iTHS6Y4v11QzP//B4WzV5IDHnx4pQYg0hvZQpZNq8P1EN6gnie1mZLA2yJG3Nz67yIw=="
+      "rules": "sha512-BAzPhp2EKIO646Foy4HLGlf/4qeoUucIVyDiKewBUY/E9vrd74OoCbLrmz+kk2Q91R+jZiXspRjpRB02skdmgw==",
+      "constants": "sha512-zOvduKzjuQfVc7OBP5yOwDDH/MrJ3BoIJ+DCw6pKkEIkk8o0QdmpBrOIgbrs1A9zlsuoqUOHPnpHMOWDSEsCaw=="
     },
     {
       "name": "androidx.browser_browser",
@@ -351,8 +351,8 @@
     },
     {
       "name": "androidx.wear.protolayout_protolayout",
-      "rules": "sha512-/NSbgTQi+Tlu1DFS4g5zJZd6bH586XeF99YmNcI16FSufID4hJMgLL4AZdLeyCstNZhwS0NmLhyEaz0x8BPRJQ==",
-      "constants": "sha512-6bVmv0kfHg3z6kGzxO9VHJcxF0VhV1o/du4rWIhzyCCSMsYSsQdurQ26DfBbHaXk90rF9Rn62rV5m6gvOSXB6A=="
+      "rules": "sha512-YBEivNswQ3evQ8coGvJb79MK6tieMiZ2ppZHrGyCSu/hmpHrKuIGO1I3H8BjXGKkyTvOl9gqQlyLBHtA1iSMhw==",
+      "constants": "sha512-Y5hpzVvkJbYF2nb+/rSvyjaROvRSk8gpDjiiBiTva7ai0ZNJWLbrncny6JJ1cMLQGsnpt3auCziqTzNBC0Duyg=="
     },
     {
       "name": "androidx.wear.protolayout_protolayout-expression",
@@ -398,6 +398,11 @@
       "name": "androidx.wear_wear-complications-data",
       "rules": "sha512-BVVi1SwgOm8tc0bGTY8wL2YIOCt2LNre+GZ6vDjX6aG98MMj3Mmqm88lwvkcRxPHaH6muhiFyptyZfYgIzoE+A==",
       "constants": "sha512-1RScv7DczU+7BlAKW/v96VTSUgp1XSB7cE7jsBFfYuT5GMqFfJm6494aMEbRZyW/IYoaqXvLLZXlYOY2DvmUsg=="
+    },
+    {
+      "name": "androidx.wear_wear-core",
+      "rules": "sha512-xQU2SmcC8sg67WCLjaMhkgrjw0v9WNAEijROPd5/jzJfxXqlMLTmaiJ41NpJw2+SeXzynqs85/txeN7s8S82GQ==",
+      "constants": "sha512-GFcwFd9ZQDj7CH3HaZ9tK6uGWjPdU9cOqdJTz6dTpY0Mpur5c5475c83YW1ZfqGWe9vJqpbbtmj6AMxUJ4hrqQ=="
     },
     {
       "name": "androidx.wear_wear-input",

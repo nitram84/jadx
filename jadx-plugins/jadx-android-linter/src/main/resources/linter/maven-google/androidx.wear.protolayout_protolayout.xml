@@ -90,6 +90,12 @@
             <val name="value" val="{androidx.wear.protolayout.LayoutElementBuilders.CONTENT_SCALE_MODE_UNDEFINED, androidx.wear.protolayout.LayoutElementBuilders.CONTENT_SCALE_MODE_FIT, androidx.wear.protolayout.LayoutElementBuilders.CONTENT_SCALE_MODE_CROP, androidx.wear.protolayout.LayoutElementBuilders.CONTENT_SCALE_MODE_FILL_BOUNDS}"></val>
         </annotation>
     </item>
+    <item name="androidx.wear.protolayout.LayoutElementBuilders.FontStyle.Builder androidx.wear.protolayout.LayoutElementBuilders.FontStyle.Builder setPreferredFontFamilies(java.lang.String, java.lang.String...) 0">
+        <annotation name="androidx.annotation.StringDef">
+            <val name="value" val="{androidx.wear.protolayout.LayoutElementBuilders.FontStyle.Builder.DEFAULT_SYSTEM_FONT, androidx.wear.protolayout.LayoutElementBuilders.FontStyle.Builder.ROBOTO_FONT, androidx.wear.protolayout.LayoutElementBuilders.FontStyle.Builder.ROBOTO_FLEX_FONT}"></val>
+            <val name="open" val="true"></val>
+        </annotation>
+    </item>
     <item name="androidx.wear.protolayout.LayoutElementBuilders.FontStyle.Builder androidx.wear.protolayout.LayoutElementBuilders.FontStyle.Builder setVariant(int) 0">
         <annotation name="androidx.annotation.IntDef">
             <val name="value" val="{androidx.wear.protolayout.LayoutElementBuilders.FONT_VARIANT_UNDEFINED, androidx.wear.protolayout.LayoutElementBuilders.FONT_VARIANT_TITLE, androidx.wear.protolayout.LayoutElementBuilders.FONT_VARIANT_BODY, androidx.wear.protolayout.LayoutElementBuilders.FONT_VARIANT_CUSTOM_1}"></val>
