@@ -115,7 +115,7 @@ public class PrepareForCodeGen extends AbstractVisitor {
 				case MOVE:
 					// remove redundant moves: unused result and same args names (a = a;)
 					RegisterArg result = insn.getResult();
-					if (result.getSVar().getUseCount() == 0
+					if (result != null && result.getSVar().getUseCount() == 0
 							&& result.isNameEquals(insn.getArg(0))) {
 						it.remove();
 					}
